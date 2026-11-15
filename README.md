@@ -127,9 +127,9 @@ python3 scripts/manage_plugin.py remove /absolute/path/to/project
 
 ## このリポジトリでの開発
 
-スキルの正本は[plugins/selenest/skills](plugins/selenest/skills/)です。
-[.agents/skills](.agents/skills)は正本への相対シンボリックリンクで、開発中のスキルをCodexに検出させます。
-このリポジトリ自身には配布版を追加導入せず、正本を直接編集します。
+スキルを変更するときは、[plugins/selenest/skills](plugins/selenest/skills/)内のファイルを編集します。
+[.agents/skills](.agents/skills)は、このディレクトリを指す相対シンボリックリンクです。Codexはこのリンクを通じて開発中のスキルを読み込みます。
+このリポジトリ自身には配布版を追加導入しません。
 シンボリックリンクを扱わないWindowsのcheckoutでは、WSLを使用するか、Gitのシンボリックリンク対応を有効にしてcheckoutしてください。
 
 配布手順:

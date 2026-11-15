@@ -1,0 +1,13 @@
+interface:
+  display_name: 作業から改善する
+  short_description: 作業の経験から改善候補を残し、選んだものを指示や道具に反映する
+  default_prompt: $improve-workflow 今回の作業を振り返り、再利用できる改善候補があれば残してください。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: false
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

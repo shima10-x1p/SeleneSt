@@ -1,7 +1,7 @@
 # 技術調査
 
 実現したいことに対して候補を調べ、比較して実現方式を選ぶ。
-候補の広げ方、根拠の扱い、比較・選定の判断基準には、[technical-discoveryスキル](../../.agents/skills/technical-discovery/SKILL.md)を使用する。
+候補の広げ方、根拠の扱い、比較・選定の判断基準には、[technical-discoveryスキル](../../skills/technical-discovery/SKILL.md)を使用する。
 
 ## 進め方
 
@@ -28,6 +28,6 @@
 
 ### 5. 候補を絞り込んで選択する
 
-スキルの[調査を区切る基準](../../.agents/skills/technical-discovery/SKILL.md#調査を区切る基準)に照らして、選定へ進めるか判断する。
+スキルの[調査を区切る基準](../../skills/technical-discovery/SKILL.md#調査を区切る基準)に照らして、選定へ進めるか判断する。
 選定へ進む場合は、採用案とその根拠、受け入れる条件、残る不明点をまとめる。
 基準を満たせない場合は、検証、条件の見直し、判断の保留のいずれかに進み、次に行うことを示して区切る。

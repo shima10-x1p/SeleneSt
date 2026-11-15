@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "selenest",
+  "version": "0.1.0",
+  "description": "技術調査、原因分析、文書作成、作業改善のスキルとワークフロー。",
+  "author": { "name": "shima10-x1p" },
+  "repository": "https://github.com/shima10-x1p/SeleneSt",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SeleneSt",
+        "shortDescription": "調査・分析・文書作成の作業手順",
+        "category": "Productivity"
+      }
+    }
+  }
+}
